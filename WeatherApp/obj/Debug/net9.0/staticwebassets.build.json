@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "7Q08YdrxjDne1QJxkycIyCXBgm8WzL+QERUQwQ60vho=",
+  "Source": "WeatherApp.API",
+  "BasePath": "_content/WeatherApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WeatherApp.API\\wwwroot",
+      "Source": "WeatherApp.API",
+      "ContentRoot": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\",
+      "BasePath": "_content/WeatherApp.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\61r3zrvput-cqsevflla1.gz",
+      "SourceId": "WeatherApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WeatherApp.API",
+      "RelativePath": "styles#[.{fingerprint=cqsevflla1}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2bkxpafcr4",
+      "Integrity": "DvYq0gvcnLUmNWNl6hrwAaOeU9rek0mAQlzJNFyGtvs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\ahk9rwr4wh-yjx3i4chla.gz",
+      "SourceId": "WeatherApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WeatherApp.API",
+      "RelativePath": "index#[.{fingerprint=yjx3i4chla}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ys36rejy4q",
+      "Integrity": "PgQEtYPoFXDDHXG4CK+xiNqZRjxehMu1qNSEjdrQ+tU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\pa1ogakp6h-tomo44lt23.gz",
+      "SourceId": "WeatherApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WeatherApp.API",
+      "RelativePath": "weather#[.{fingerprint=tomo44lt23}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\weather.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wfhtrk0mpn",
+      "Integrity": "dLdDIW8i7N/x80PXtvKpXLG+7cNyGLVzVK1Yvn1jm38=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\weather.html"
+    },
+    {
+      "Identity": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\index.html",
+      "SourceId": "WeatherApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\",
+      "BasePath": "_content/WeatherApp.API",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yjx3i4chla",
+      "Integrity": "YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\styles.css",
+      "SourceId": "WeatherApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\",
+      "BasePath": "_content/WeatherApp.API",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqsevflla1",
+      "Integrity": "DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\weather.html",
+      "SourceId": "WeatherApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\",
+      "BasePath": "_content/WeatherApp.API",
+      "RelativePath": "weather#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tomo44lt23",
+      "Integrity": "I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\weather.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\ahk9rwr4wh-yjx3i4chla.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000327225131"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3055"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PgQEtYPoFXDDHXG4CK+xiNqZRjxehMu1qNSEjdrQ+tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:56:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:56:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\ahk9rwr4wh-yjx3i4chla.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PgQEtYPoFXDDHXG4CK+xiNqZRjxehMu1qNSEjdrQ+tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:56:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PgQEtYPoFXDDHXG4CK+xiNqZRjxehMu1qNSEjdrQ+tU="
+        }
+      ]
+    },
+    {
+      "Route": "index.yjx3i4chla.html",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\ahk9rwr4wh-yjx3i4chla.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000327225131"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3055"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PgQEtYPoFXDDHXG4CK+xiNqZRjxehMu1qNSEjdrQ+tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:56:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yjx3i4chla"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw="
+        }
+      ]
+    },
+    {
+      "Route": "index.yjx3i4chla.html",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:56:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yjx3i4chla"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YlEh0fBiHzj/ASca8+2KlVbu1n57L4FTfRLC0AWQrrw="
+        }
+      ]
+    },
+    {
+      "Route": "index.yjx3i4chla.html.gz",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\ahk9rwr4wh-yjx3i4chla.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PgQEtYPoFXDDHXG4CK+xiNqZRjxehMu1qNSEjdrQ+tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:56:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yjx3i4chla"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PgQEtYPoFXDDHXG4CK+xiNqZRjxehMu1qNSEjdrQ+tU="
+        }
+      ]
+    },
+    {
+      "Route": "styles.cqsevflla1.css",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\61r3zrvput-cqsevflla1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000591016548"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1691"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DvYq0gvcnLUmNWNl6hrwAaOeU9rek0mAQlzJNFyGtvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqsevflla1"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg="
+        }
+      ]
+    },
+    {
+      "Route": "styles.cqsevflla1.css",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqsevflla1"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg="
+        }
+      ]
+    },
+    {
+      "Route": "styles.cqsevflla1.css.gz",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\61r3zrvput-cqsevflla1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DvYq0gvcnLUmNWNl6hrwAaOeU9rek0mAQlzJNFyGtvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqsevflla1"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DvYq0gvcnLUmNWNl6hrwAaOeU9rek0mAQlzJNFyGtvs="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\61r3zrvput-cqsevflla1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000591016548"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1691"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DvYq0gvcnLUmNWNl6hrwAaOeU9rek0mAQlzJNFyGtvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DMwVaIORuou7VSxfLqwMnzc9Bpbt9iW4QXTX3jlf6pg="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css.gz",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\61r3zrvput-cqsevflla1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DvYq0gvcnLUmNWNl6hrwAaOeU9rek0mAQlzJNFyGtvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DvYq0gvcnLUmNWNl6hrwAaOeU9rek0mAQlzJNFyGtvs="
+        }
+      ]
+    },
+    {
+      "Route": "weather.html",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\pa1ogakp6h-tomo44lt23.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232126277"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4307"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dLdDIW8i7N/x80PXtvKpXLG+7cNyGLVzVK1Yvn1jm38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4="
+        }
+      ]
+    },
+    {
+      "Route": "weather.html",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\weather.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4="
+        }
+      ]
+    },
+    {
+      "Route": "weather.html.gz",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\pa1ogakp6h-tomo44lt23.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dLdDIW8i7N/x80PXtvKpXLG+7cNyGLVzVK1Yvn1jm38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dLdDIW8i7N/x80PXtvKpXLG+7cNyGLVzVK1Yvn1jm38="
+        }
+      ]
+    },
+    {
+      "Route": "weather.tomo44lt23.html",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\pa1ogakp6h-tomo44lt23.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232126277"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4307"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dLdDIW8i7N/x80PXtvKpXLG+7cNyGLVzVK1Yvn1jm38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tomo44lt23"
+        },
+        {
+          "Name": "label",
+          "Value": "weather.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4="
+        }
+      ]
+    },
+    {
+      "Route": "weather.tomo44lt23.html",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\weather.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tomo44lt23"
+        },
+        {
+          "Name": "label",
+          "Value": "weather.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9NV/qtBjZ2MLGi2Ev1o+lQSMULS7H+Q1y6hQMHr5u4="
+        }
+      ]
+    },
+    {
+      "Route": "weather.tomo44lt23.html.gz",
+      "AssetFile": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\obj\\Debug\\net9.0\\compressed\\pa1ogakp6h-tomo44lt23.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dLdDIW8i7N/x80PXtvKpXLG+7cNyGLVzVK1Yvn1jm38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tomo44lt23"
+        },
+        {
+          "Name": "label",
+          "Value": "weather.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dLdDIW8i7N/x80PXtvKpXLG+7cNyGLVzVK1Yvn1jm38="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+:root {
+    --primary: #4361ee;
+    --secondary: #3f37c9;
+    --accent: #4895ef;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --success: #4cc9f0;
+    --warning: #f72585;
+    --card-bg: rgba(255, 255, 255, 0.15);
+    --card-border: rgba(255, 255, 255, 0.18);
+    --input-bg: rgba(255, 255, 255, 0.1);
+    --input-border: rgba(255, 255, 255, 0.2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: var(--light);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://assets.codepen.io/6060109/weather-sprite.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+/* Общие стили для карточек */
+.card {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid var(--card-border);
+    margin-bottom: 2rem;
+}
+
+/* Стили для заголовков */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(to right, #fff, #c9d6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Стили для форм */
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form-group i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input {
+    width: 100%;
+    padding: 0.9rem 1rem 0.9rem 2.8rem;
+    background: var(--input-bg);
+    border: 1px solid var(--input-border);
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Стили для кнопок */
+.btn {
+    background: linear-gradient(to right, var(--primary), var(--accent));
+    color: white;
+    border: none;
+    padding: 0.9rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, var(--secondary), var(--primary));
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Стили для погоды */
+.weather-info {
+    display: none;
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.location {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.temperature {
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.temperature::after {
+    content: "°C";
+    position: absolute;
+    top: 0;
+    font-size: 2rem;
+}
+
+.weather-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.detail-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.detail-item i {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent);
+}
+
+/* Стили для истории */
+.history-list {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.history-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Стили для уведомлений */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--card-border);
+    animation: slideIn 0.3s ease;
+    z-index: 1000;
+}
+
+.notification.error {
+    background: rgba(247, 37, 133, 0.2);
+    border-color: var(--warning);
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Адаптивность */
+@media (max-width: 500px) {
+    .card {
+        padding: 1.5rem;
+    }
+    
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .details {
+        grid-template-columns: 1fr;
+    }
+} 

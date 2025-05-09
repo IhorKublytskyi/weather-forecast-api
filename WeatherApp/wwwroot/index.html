@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWave • Авторизация</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --secondary: #3f37c9;
+            --accent: #4895ef;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --success: #4cc9f0;
+            --warning: #f72585;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--light);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+            body::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('https://assets.codepen.io/6060109/weather-sprite.png') no-repeat;
+                background-position: center;
+                background-size: cover;
+                opacity: 0.05;
+                z-index: -1;
+            }
+
+        .auth-container {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2.5rem;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+            .logo h1 {
+                font-size: 2.2rem;
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+                background: linear-gradient(to right, #fff, #c9d6ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .logo p {
+                font-size: 1rem;
+                opacity: 0.9;
+            }
+
+        .auth-form .input-group {
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+            .auth-form .input-group i {
+                position: absolute;
+                left: 1rem;
+                top: 50%;
+                transform: translateY(-50%);
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+        .auth-form input {
+            width: 100%;
+            padding: 0.9rem 1rem 0.9rem 2.8rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+            .auth-form input::placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            .auth-form input:focus {
+                outline: none;
+                background: rgba(255, 255, 255, 0.2);
+                border-color: rgba(255, 255, 255, 0.4);
+            }
+
+        .auth-form button {
+            width: 100%;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+            .auth-form button:hover {
+                background: linear-gradient(to right, var(--secondary), var(--primary));
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            }
+
+        .auth-footer {
+            text-align: center;
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+            .auth-footer a {
+                color: var(--accent);
+                text-decoration: none;
+                transition: all 0.3s ease;
+            }
+
+                .auth-footer a:hover {
+                    color: white;
+                    text-decoration: underline;
+                }
+
+        .error-message {
+            color: var(--warning);
+            text-align: center;
+            margin-top: 1rem;
+            font-weight: 500;
+            min-height: 1.5rem;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .auth-container {
+                padding: 1.5rem;
+            }
+
+            .logo h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card auth-container">
+        <div class="logo">
+            <h1>WeatherWave</h1>
+            <p>Войдите для доступа к прогнозу погоды</p>
+        </div>
+
+        <form class="auth-form" id="loginForm">
+            <div class="form-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Пароль" required>
+            </div>
+            <button type="submit" class="btn">
+                <i class="fas fa-sign-in-alt"></i> Войти
+            </button>
+            <div class="error-message" id="error"></div>
+        </form>
+
+        <div class="auth-footer">
+            <p>Нет аккаунта? <a href="#" id="registerLink">Зарегистрируйтесь</a></p>
+        </div>
+    </div>
+
+    <div class="card auth-container" id="registerForm" style="display: none;">
+        <div class="logo">
+            <h1>WeatherWave</h1>
+            <p>Создайте новый аккаунт</p>
+        </div>
+
+        <form class="auth-form" id="registerForm">
+            <div class="form-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="regEmail" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="regPassword" placeholder="Пароль" required>
+            </div>
+            <div class="form-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="regConfirmPassword" placeholder="Подтвердите пароль" required>
+            </div>
+            <button type="submit" class="btn">
+                <i class="fas fa-user-plus"></i> Зарегистрироваться
+            </button>
+            <div class="error-message" id="regError"></div>
+        </form>
+
+        <div class="auth-footer">
+            <p>Уже есть аккаунт? <a href="#" id="loginLink">Войти</a></p>
+        </div>
+    </div>
+
+    <script>
+        // Переключение между формами входа и регистрации
+        document.getElementById('registerLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('loginForm').parentElement.style.display = 'none';
+            document.getElementById('registerForm').style.display = 'block';
+        });
+
+        document.getElementById('loginLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('registerForm').style.display = 'none';
+            document.getElementById('loginForm').parentElement.style.display = 'block';
+        });
+
+        // Обработка входа
+        document.getElementById("loginForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const errorDiv = document.getElementById("error");
+
+            try {
+                const response = await fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        Email: email,
+                        Password: password
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error("Неверный email или пароль");
+                }
+
+                const data = await response.json();
+
+                localStorage.setItem('authToken', data.access_token);
+                localStorage.setItem('username', data.username);
+
+                window.location.href = '/weather.html';
+
+            } catch (err) {
+                errorDiv.textContent = err.message;
+            }
+        });
+
+        // Обработка регистрации
+        document.getElementById("registerForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const email = document.getElementById("regEmail").value;
+            const password = document.getElementById("regPassword").value;
+            const confirmPassword = document.getElementById("regConfirmPassword").value;
+            const errorDiv = document.getElementById("regError");
+
+            if (password !== confirmPassword) {
+                errorDiv.textContent = "Пароли не совпадают";
+                return;
+            }
+
+            try {
+                const response = await fetch('/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        Email: email,
+                        Password: password
+                    })
+                });
+
+                if (!response.ok) {
+                    const error = await response.text();
+                    throw new Error(error);
+                }
+
+                const data = await response.text();
+                showNotification(data, 'success');
+                
+                // Переключаемся на форму входа
+                document.getElementById('registerForm').style.display = 'none';
+                document.getElementById('loginForm').parentElement.style.display = 'block';
+                
+                // Очищаем поля
+                document.getElementById("regEmail").value = '';
+                document.getElementById("regPassword").value = '';
+                document.getElementById("regConfirmPassword").value = '';
+                errorDiv.textContent = '';
+
+            } catch (err) {
+                errorDiv.textContent = err.message;
+            }
+        });
+
+        // Функция для показа уведомлений
+        function showNotification(message, type = 'success') {
+            const notification = document.createElement('div');
+            notification.className = `notification ${type === 'error' ? 'error' : ''}`;
+            notification.textContent = message;
+            document.body.appendChild(notification);
+
+            setTimeout(() => {
+                notification.remove();
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

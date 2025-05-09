@@ -1,0 +1,437 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\extensions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:extensions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\services\\historyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:services\\historyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\interfaces\\isearchrequestsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\repositories\\searchrequestsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\models\\searchrequestentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\wwwroot\\weather.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:wwwroot\\weather.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\services\\models\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:services\\models\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\configurations\\searchrequestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\migrations\\20250427181453_somechanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\migrations\\20250427182142_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\infrastructure\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:infrastructure\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\weatherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798609E3-89EE-4FF8-821C-6C58F7C9507A}|..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp.dataaccess.postgres\\weatherapp.dataaccess.postgres.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|c:\\users\\igorl\\onedrive\\desktop\\weatherapp\\weatherapp\\infrastructure\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2F483-4D57-F78B-D3BC-101A6B166E61}|WeatherApp.API.csproj|solutionrelative:infrastructure\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\WeatherApp.API.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeatherApp.API.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T20:39:34.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Services\\HistoryService.cs",
+              "RelativeDocumentMoniker": "Services\\HistoryService.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Services\\HistoryService.cs",
+              "RelativeToolTip": "Services\\HistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T20:24:36.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAUwGsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:54:56.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAmwP0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-23T18:53:04.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Extensions\\ApiExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ApiExtensions.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Extensions\\ApiExtensions.cs",
+              "RelativeToolTip": "Extensions\\ApiExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:50:58.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Models\\UserEntity.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Models\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Models\\UserEntity.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Models\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T16:57:10.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginData.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Services\\Models\\LoginData.cs",
+              "RelativeDocumentMoniker": "Services\\Models\\LoginData.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Services\\Models\\LoginData.cs",
+              "RelativeToolTip": "Services\\Models\\LoginData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:17:31.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchRequestEntity.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Models\\SearchRequestEntity.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Models\\SearchRequestEntity.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Models\\SearchRequestEntity.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Models\\SearchRequestEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T16:59:47.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchRequestsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Repositories\\SearchRequestsRepository.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Repositories\\SearchRequestsRepository.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Repositories\\SearchRequestsRepository.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Repositories\\SearchRequestsRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:50:19.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Interfaces\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Interfaces\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Interfaces\\IUsersRepository.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Interfaces\\IUsersRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:18:39.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISearchRequestsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Interfaces\\ISearchRequestsRepository.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Interfaces\\ISearchRequestsRepository.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Interfaces\\ISearchRequestsRepository.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Interfaces\\ISearchRequestsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:28:59.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Infrastructure\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\JwtProvider.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Infrastructure\\JwtProvider.cs",
+              "RelativeToolTip": "Infrastructure\\JwtProvider.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:39:39.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:26:51.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:04:21.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "weather.html",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\weather.html",
+              "RelativeDocumentMoniker": "wwwroot\\weather.html",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\wwwroot\\weather.html",
+              "RelativeToolTip": "wwwroot\\weather.html",
+              "ViewState": "AgIAAKABAAAAAAAAAAAiwL4BAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-25T09:52:09.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Services\\WeatherService.cs",
+              "RelativeToolTip": "Services\\WeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:59:40.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SearchRequestConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Configurations\\SearchRequestConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Configurations\\SearchRequestConfiguration.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Configurations\\SearchRequestConfiguration.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Configurations\\SearchRequestConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:14:54.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250427181453_SomeChanges.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Migrations\\20250427181453_SomeChanges.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Migrations\\20250427181453_SomeChanges.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Migrations\\20250427181453_SomeChanges.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Migrations\\20250427181453_SomeChanges.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwD0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:16:19.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250427182142_Second.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Migrations\\20250427182142_Second.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\Migrations\\20250427182142_Second.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\Migrations\\20250427182142_Second.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\Migrations\\20250427182142_Second.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:21:48.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T16:40:55.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T20:55:54.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Infrastructure\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\IJwtProvider.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Infrastructure\\IJwtProvider.cs",
+              "RelativeToolTip": "Infrastructure\\IJwtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:52:42.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WeatherDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\WeatherDbContext.cs",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\WeatherDbContext.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\WeatherDbContext.cs",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\WeatherDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:01:28.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Infrastructure\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\JwtOptions.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\Infrastructure\\JwtOptions.cs",
+              "RelativeToolTip": "Infrastructure\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:38:51.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeatherApp.DataAccess.Postgres.csproj",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj",
+              "RelativeDocumentMoniker": "..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj",
+              "RelativeToolTip": "..\\WeatherApp.DataAccess.Postgres\\WeatherApp.DataAccess.Postgres.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T17:53:14.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WeatherApp.API.csproj.user",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\WeatherApp.API.csproj.user",
+              "RelativeDocumentMoniker": "WeatherApp.API.csproj.user",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Desktop\\WeatherApp\\WeatherApp\\WeatherApp.API.csproj.user",
+              "RelativeToolTip": "WeatherApp.API.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-04-22T20:53:03.778Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

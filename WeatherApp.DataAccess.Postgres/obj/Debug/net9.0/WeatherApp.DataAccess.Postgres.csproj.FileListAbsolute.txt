@@ -1,0 +1,12 @@
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\bin\Debug\net9.0\WeatherApp.DataAccess.Postgres.deps.json
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\bin\Debug\net9.0\WeatherApp.DataAccess.Postgres.dll
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\bin\Debug\net9.0\WeatherApp.DataAccess.Postgres.pdb
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\WeatherApp.DataAccess.Postgres.csproj.AssemblyReference.cache
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\WeatherApp.DataAccess.Postgres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\WeatherApp.DataAccess.Postgres.AssemblyInfoInputs.cache
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\WeatherApp.DataAccess.Postgres.AssemblyInfo.cs
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\WeatherApp.DataAccess.Postgres.csproj.CoreCompileInputs.cache
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\WeatherApp.DataAccess.Postgres.dll
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\refint\WeatherApp.DataAccess.Postgres.dll
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\WeatherApp.DataAccess.Postgres.pdb
+C:\Users\igorl\OneDrive\Desktop\WeatherApp\WeatherApp.DataAccess.Postgres\obj\Debug\net9.0\ref\WeatherApp.DataAccess.Postgres.dll
